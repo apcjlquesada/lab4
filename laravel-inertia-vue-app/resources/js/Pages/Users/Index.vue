@@ -65,6 +65,18 @@ defineProps({
                         </td>
                         <td class="py-4 px-6 whitespace-nowrap">
                           <!-- Start Actions -->
+                          <!-- Start Edit User -->
+                          <inertia-link
+                          <!-- Start Actions -->
+                          :href="route('users.edit', { user: user.id })"
+                          class="mr-1 mb-1 px-4 py-2 uppercase text-sm leading-4 border rounded-md hover:bg-white focus:border-indigo-500 focus:text-indigo-500"
+                          >
+                           Edit
+                          </inertia-link>
+                          <!-- End Edit User -->
+                          <!-- End Actions -->
+
+
                           <!-- End Actions -->
                         </td>
                       </tr>

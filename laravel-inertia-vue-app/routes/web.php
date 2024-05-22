@@ -32,5 +32,12 @@ Route::middleware('auth')->group(function () {
 Route::get('/users', [UsersController::class, 'index'])->name('users.index');
 
 
+// Users CRUD routes
+Route::get('/users', [UsersController::class, 'index'])->name('users.index');
+Route::get('/users/{user}/edit', [UsersController::class, 'edit'])->name('users.edit');
+Route::patch('/users/{user}/update', [UsersController::class, 'update'])->name('users.update');
+
+
+
 
 require __DIR__.'/auth.php';
