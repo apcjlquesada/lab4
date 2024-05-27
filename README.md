@@ -39,7 +39,7 @@ import { ZiggyVue } from '../../vendor/tightenco/ziggy/';
  How to get Vite working in Codespaces 
 
 https://github.com/JonoHall/Laravel-Vite-Codespaces/tree/main 
-
+Only step 1 and step 4 are needed
   
 
  How to add PHPMyAdmin 
